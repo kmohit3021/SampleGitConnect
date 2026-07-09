@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_My First Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31353de2-3b27-4fd9-9008-16b19083758e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94abf17f-8298-47bf-bb7e-8ec546c37589</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'mohit.kumar'</defaultValue>
+      <description></description>
+      <id>94abf17f-8298-47bf-bb7e-8ec546c37589</id>
+      <masked>false</masked>
+      <name>HRM_Username</name>
+   </variable>
+</TestCaseEntity>
