@@ -11,13 +11,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>94abf17f-8298-47bf-bb7e-8ec546c37589</variableId>
+      <variableId>2d3a4191-7d8e-4294-8f77-2d50fa35facc</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'mohit.kumar'</defaultValue>
+      <defaultValue>'Mohit kumar sharma'</defaultValue>
       <description></description>
-      <id>94abf17f-8298-47bf-bb7e-8ec546c37589</id>
+      <id>2d3a4191-7d8e-4294-8f77-2d50fa35facc</id>
       <masked>false</masked>
-      <name>HRM_Username</name>
+      <name>Local_Username</name>
    </variable>
 </TestCaseEntity>
