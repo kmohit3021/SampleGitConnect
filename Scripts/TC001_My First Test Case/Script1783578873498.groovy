@@ -1,13 +1,15 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://orange.katalon.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Or Web/Page_OrangeHRM/input_Username'), GlobalVariable.G_Username)
+WebUI.setText(findTestObject('Or Web/Page_OrangeHRM/input_Username'), ${GlobalVariable.G_Username})
 
 WebUI.setEncryptedText(findTestObject('Or Web/Page_OrangeHRM/input_Password'), 'NQuaCwkN8Pc=')
 
