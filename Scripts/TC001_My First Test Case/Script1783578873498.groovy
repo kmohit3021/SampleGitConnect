@@ -9,7 +9,7 @@ WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://orange.katalon.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Or Web/Page_OrangeHRM/input_Username'), ${G_Username})
+WebUI.setText(findTestObject('Or Web/Page_OrangeHRM/input_Username'), GlobalVariable.G_Username)
 
 WebUI.setEncryptedText(findTestObject('Or Web/Page_OrangeHRM/input_Password'), 'NQuaCwkN8Pc=')
 
